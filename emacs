@@ -53,13 +53,6 @@
     (setq magit-last-seen-setup-instructions "1.4.0"))
 )
 
-;; (use-package color-theme
-;;   :ensure
-;;   :config
-;;   (progn
-;;     (color-theme-initialize)
-;;     (color-theme-clarity)))
-
 (use-package col-highlight
   :ensure t
   :config
@@ -107,6 +100,11 @@
   :config
   (progn
     (xclip-mode 1)))
+(use-package simpleclip
+  :ensure
+  :config
+  (progn
+    (simpleclip-mode 1)))
 
 (use-package pytest
   :ensure
@@ -122,37 +120,23 @@
   :ensure)
 (use-package go-dlv
   :ensure)
+(use-package go-rename
+  :ensure)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Custom auto-added faces and variables.
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(minibuffer-prompt ((t (:foreground "brightcyan")))))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(blink-cursor-mode nil)
  '(column-number-mode t)
- '(custom-safe-themes
-   (quote
-    ("f0b0710b7e1260ead8f7808b3ee13c3bb38d45564e369cbe15fc6d312f0cd7a0" "3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" default)))
- '(echo-keystrokes 0.1)
- '(ediff-split-window-function (quote split-window-horizontally))
- '(go-test-verbose f)
+ '(custom-enabled-themes (quote (wombat)))
  '(gofmt-args (quote ("-local" "${PROJECT_ROOT}")))
  '(gofmt-command "goimports")
  '(inhibit-startup-screen t)
- '(initial-scratch-message nil)
  '(menu-bar-mode nil)
- '(package-selected-packages
-   (quote
-    (go-rename gotest yaml-mode xclip use-package thrift textmate smex simpleclip rbenv pytest popup magit ido-vertical-mode go-mode ggtags flx-ido col-highlight ag ace-jump-mode)))
  '(safe-local-variable-values
    (quote
     ((eval setenv "PROJECT_ROOT" "code.uber.internal/pricing/wayfare")
@@ -165,8 +149,6 @@
            (concat
             (getenv "GOPATH")
             "/src/code.uber.internal/pricing/wayfare/config"))
-     (go-test-args . "-race")
-     (go-test-args . -race)
      (eval setenv "PATH"
            (concat "env/bin:"
                    (getenv "PATH")))
@@ -197,8 +179,6 @@
       )
 
 ;; Go
-;; (pushnew '(golang-test ("^\t([^:]+):([0-9]+):" 1 2))
-;;          compilation-error-regexp-alist-alist)
 
 (setenv "GOPATH" (concat (getenv "HOME") "/gocode"))
 (setq exec-path (cons
@@ -293,4 +273,10 @@
 
 ;; (global-set-key [f2] 'visit-ansi-term)
 
-(global-set-key (kbd "M-SPC") 'mark-word)
+(global-set-key (kbd "M-SPC") 'mark-sexp)
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
