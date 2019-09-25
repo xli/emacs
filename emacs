@@ -77,7 +77,7 @@
 (use-package thrift
   :ensure
   :config
-  (setq thrift-indent-level 8))
+  (setq thrift-indent-level 2))
 
 (use-package textmate
              :ensure
@@ -93,18 +93,6 @@
   :config
   (progn
     (add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))))
-
-;; brew install homebrew/x11/xclip
-(use-package xclip
-  :ensure
-  :config
-  (progn
-    (xclip-mode 1)))
-(use-package simpleclip
-  :ensure
-  :config
-  (progn
-    (simpleclip-mode 1)))
 
 (use-package pytest
   :ensure
@@ -123,6 +111,11 @@
 (use-package go-rename
   :ensure)
 
+(load "/Users/lix/.emacs.d/github/datclip/datclip.el")
+(load "/Users/lix/emacs.xli/pbcopy.el")
+(require 'pbcopy)
+(turn-on-pbcopy)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Custom auto-added faces and variables.
 
@@ -137,6 +130,9 @@
  '(gofmt-command "goimports")
  '(inhibit-startup-screen t)
  '(menu-bar-mode nil)
+ '(package-selected-packages
+   (quote
+    (datclip yaml-mode use-package thrift textmate smex rbenv pytest magit ido-vertical-mode gotest go-rename go-eldoc go-dlv go-autocomplete ggtags flx-ido col-highlight ag ace-jump-mode)))
  '(safe-local-variable-values
    (quote
     ((eval setenv "PROJECT_ROOT" "code.uber.internal/pricing/wayfare")
