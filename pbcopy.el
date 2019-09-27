@@ -58,7 +58,7 @@ See `x-set-selection'."
 
 (defun pbcopy-select-text (text &optional push)
   "See `x-select-text'."
-  (unless (file-remote-p buffer-file-name)
+  (unless (and buffer-file-name (file-remote-p buffer-file-name))
     (pbcopy-set-selection 'primary text)
     (setq pbcopy-last-selected-text-primary text)
     (when pbcopy-select-enable-clipboard
