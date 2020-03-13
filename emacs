@@ -63,9 +63,9 @@
 
 ;; brew install --HEAD ctags
 ;; brew install global --with-exuberant-ctags
-(use-package ggtags
-  :ensure
-  :bind (("C-c C-g" . ggtags-mode)))
+;; (use-package ggtags
+;;   :ensure
+;;   :bind (("C-c C-g" . ggtags-mode)))
 
 (use-package ace-jump-mode
   :ensure
@@ -111,10 +111,22 @@
 (use-package go-rename
   :ensure)
 
-(load "/Users/lix/.emacs.d/github/datclip/datclip.el")
-(load "/Users/lix/emacs.xli/pbcopy.el")
+(defvar path-to-emacs-init (if load-file-name
+                               (file-name-directory load-file-name)
+                             default-directory))
+
+;; (load (expand-file-name "datclip.el" path-to-emacs-init))
+(load (expand-file-name "pbcopy.el" path-to-emacs-init))
 (require 'pbcopy)
 (turn-on-pbcopy)
+
+(setq path-to-ctags "/usr/local/bin/ctags")
+(defun create-tags (dir-name)
+    "Create tags file."
+    (interactive "DDirectory: ")
+    (shell-command
+     (format "%s -f TAGS -e -R %s --exlucde=.git --exclude=log" path-to-ctags (directory-file-name dir-name)))
+  )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Custom auto-added faces and variables.
@@ -132,24 +144,11 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (datclip yaml-mode use-package thrift textmate smex rbenv pytest magit ido-vertical-mode gotest go-rename go-eldoc go-dlv go-autocomplete ggtags flx-ido col-highlight ag ace-jump-mode)))
+    (yaml-mode use-package thrift textmate smex rbenv pytest magit ido-vertical-mode gotest go-rename go-eldoc go-dlv go-autocomplete ggtags flx-ido col-highlight ag ace-jump-mode)))
  '(safe-local-variable-values
    (quote
-    ((eval setenv "PROJECT_ROOT" "code.uber.internal/pricing/wayfare")
-     (eval setenv "UBER_CONFIG_DIR"
-           (concat
-            (getenv "GOPATH")
-            "/src/code.uber.internal/pricing/fare-route/config"))
-     (eval setenv "UBER_ENVIRONMENT" "test")
-     (eval setenv "UBER_CONFIG_DIR"
-           (concat
-            (getenv "GOPATH")
-            "/src/code.uber.internal/pricing/wayfare/config"))
-     (eval setenv "PATH"
-           (concat "env/bin:"
-                   (getenv "PATH")))
-     (eval setenv "PYTHONDONTWRITEBYTECODE" "1")
-     (eval setenv "CLAY_CONFIG" "config/test.yaml"))))
+    ((eval setenv "PROJECT_ROOT" "abc")
+    )))
  '(save-place-file "~/.emacs.d/emacs.places")
  '(save-place-mode t nil (saveplace))
  '(scroll-bar-mode nil)
@@ -176,15 +175,17 @@
 
 ;; Go
 
-(setenv "GOPATH" (concat (getenv "HOME") "/gocode"))
+(setenv "GOPATH" (concat (getenv "HOME") "/code/go"))
 (setq exec-path (cons
-                 (concat (getenv "HOME") "/gocode/bin")
+                 (concat (getenv "HOME") "/code/go/bin")
                  exec-path))
-(setenv "PATH" (concat (getenv "HOME") "/gocode/bin:" (getenv "PATH")))
+(setenv "PATH" (concat (getenv "HOME") "/code/go/bin:" (getenv "PATH")))
 
 (define-key go-mode-map (kbd "C-c f") 'go-test-current-file)
 (define-key go-mode-map (kbd "C-c t") 'go-test-current-test)
 (define-key go-mode-map (kbd "C-c p") 'go-test-current-project)
+(define-key go-mode-map (kbd "M-.") 'godef-jump)
+(define-key go-mode-map (kbd "M-*") 'pop-tag-mark)
 ;; (define-key go-mode-map (kbd "C-x b") 'go-test-current-benchmark)
 ;; (define-key go-mode-map (kbd "C-x x") 'go-run)
 (fset 'gopp
