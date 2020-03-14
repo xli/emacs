@@ -116,9 +116,17 @@
                              default-directory))
 
 ;; (load (expand-file-name "datclip.el" path-to-emacs-init))
-(load (expand-file-name "pbcopy.el" path-to-emacs-init))
-(require 'pbcopy)
-(turn-on-pbcopy)
+;; (load (expand-file-name "pbcopy.el" path-to-emacs-init))
+;; (require 'pbcopy)
+;; (turn-on-pbcopy)
+
+;; Copy from Emacs to OS X clipboard:
+;; select region then M-| pbcopy RET
+;; Paste from OS X clipboard to Emacs:
+;; C-u M-| pbpaste RET (replaces current region if it exists)
+
+
+
 
 (setq path-to-ctags "/usr/local/bin/ctags")
 (defun create-tags (dir-name)
