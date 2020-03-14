@@ -187,7 +187,7 @@
 (define-key go-mode-map (kbd "M-.") 'godef-jump)
 (define-key go-mode-map (kbd "M-*") 'pop-tag-mark)
 ;; (define-key go-mode-map (kbd "C-x b") 'go-test-current-benchmark)
-;; (define-key go-mode-map (kbd "C-x x") 'go-run)
+(define-key go-mode-map (kbd "C-x x") 'go-run)
 (fset 'gopp
    "b, _ := json.MarshalIndent(, \"\", \"\\t\")\C-mfmt.Println(string(b))\C-p\C-[f\C-f")
 
