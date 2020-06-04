@@ -115,18 +115,6 @@
                                (file-name-directory load-file-name)
                              default-directory))
 
-;; (load (expand-file-name "datclip.el" path-to-emacs-init))
-;; (load (expand-file-name "pbcopy.el" path-to-emacs-init))
-;; (require 'pbcopy)
-;; (turn-on-pbcopy)
-
-;; Copy from Emacs to OS X clipboard:
-;; select region then M-| pbcopy RET
-;; Paste from OS X clipboard to Emacs:
-;; C-u M-| pbpaste RET (replaces current region if it exists)
-
-
-
 
 (setq path-to-ctags "/usr/local/bin/ctags")
 (defun create-tags (dir-name)
@@ -153,10 +141,7 @@
  '(package-selected-packages
    (quote
     (yaml-mode use-package thrift textmate smex rbenv pytest magit ido-vertical-mode gotest go-rename go-eldoc go-dlv go-autocomplete ggtags flx-ido col-highlight ag ace-jump-mode)))
- '(safe-local-variable-values
-   (quote
-    ((eval setenv "PROJECT_ROOT" "abc")
-    )))
+ '(safe-local-variable-values (quote ((eval setenv "PROJECT_ROOT" "abc"))))
  '(save-place-file "~/.emacs.d/emacs.places")
  '(save-place-mode t nil (saveplace))
  '(scroll-bar-mode nil)
