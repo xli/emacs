@@ -1,14 +1,6 @@
 (require 'package)
 
 (add-to-list 'package-archives
-            '("marmalade" . "https://marmalade-repo.org/packages/") t)
-;; (add-to-list 'package-archives
-;;              '("elpy" .
-;;              "http://jorgenschaefer.github.io/packages/"))
-
-;; (add-to-list 'package-archives
-;;              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
-(add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/"))
 
 (package-initialize)
@@ -111,6 +103,21 @@
 (use-package go-rename
   :ensure)
 
+
+(use-package ansi-color
+  :ensure
+  :config
+  (defun endless/colorize-compilation ()
+    "Colorize from `compilation-filter-start' to `point'."
+    (let ((inhibit-read-only t))
+      (ansi-color-apply-on-region
+       compilation-filter-start (point))))
+
+  (add-hook 'compilation-filter-hook
+            #'endless/colorize-compilation)
+)
+
+
 (defvar path-to-emacs-init (if load-file-name
                                (file-name-directory load-file-name)
                              default-directory))
@@ -140,7 +147,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (yaml-mode use-package thrift textmate smex rbenv pytest magit ido-vertical-mode gotest go-rename go-eldoc go-dlv go-autocomplete ggtags flx-ido col-highlight ag ace-jump-mode)))
+    (buckwalter yaml-mode use-package thrift textmate smex rbenv pytest magit ido-vertical-mode gotest go-rename go-eldoc go-dlv go-autocomplete ggtags flx-ido col-highlight ag ace-jump-mode)))
  '(safe-local-variable-values (quote ((eval setenv "PROJECT_ROOT" "abc"))))
  '(save-place-file "~/.emacs.d/emacs.places")
  '(save-place-mode t nil (saveplace))
