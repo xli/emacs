@@ -2,6 +2,7 @@
 
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/"))
+(add-to-list 'load-path "~/emacs")
 
 (package-initialize)
 (when (not package-archive-contents)
@@ -44,14 +45,6 @@
     (setq magit-auto-revert-mode nil)
     (setq magit-last-seen-setup-instructions "1.4.0"))
 )
-
-(use-package col-highlight
-  :ensure t
-  :config
-  (progn
-    (col-highlight-set-interval 1)
-    (toggle-highlight-column-when-idle 1)
-    (set-face-background 'col-highlight "color-235")))
 
 ;; brew install --HEAD ctags
 ;; brew install global --with-exuberant-ctags
@@ -103,6 +96,16 @@
 (use-package go-rename
   :ensure)
 
+(use-package lsp-mode
+  :ensure
+  :commands lsp)
+
+(use-package rust-mode
+  :ensure
+  :config
+  (add-hook 'rust-mode-hook
+            (lambda () (setq indent-tabs-mode nil)))
+  (setq rust-format-on-save t))
 
 (use-package ansi-color
   :ensure
@@ -129,7 +132,7 @@
     (interactive "DDirectory: ")
     (shell-command
      (format "%s -f TAGS -e -R %s --exlucde=.git --exclude=log" path-to-ctags (directory-file-name dir-name)))
-  )
+    )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Custom auto-added faces and variables.
@@ -139,15 +142,17 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
  '(column-number-mode t)
- '(custom-enabled-themes (quote (wombat)))
+ '(custom-enabled-themes (quote (tango-dark)))
  '(gofmt-args (quote ("-local" "${PROJECT_ROOT}")))
  '(gofmt-command "goimports")
  '(inhibit-startup-screen t)
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (buckwalter yaml-mode use-package thrift textmate smex rbenv pytest magit ido-vertical-mode gotest go-rename go-eldoc go-dlv go-autocomplete ggtags flx-ido col-highlight ag ace-jump-mode)))
+    (cargo rust-mode lsp-mode buckwalter yaml-mode use-package thrift textmate smex rbenv pytest magit ido-vertical-mode gotest go-rename go-eldoc go-dlv go-autocomplete ggtags flx-ido ag ace-jump-mode)))
  '(safe-local-variable-values (quote ((eval setenv "PROJECT_ROOT" "abc"))))
  '(save-place-file "~/.emacs.d/emacs.places")
  '(save-place-mode t nil (saveplace))
@@ -175,12 +180,6 @@
 
 ;; Go
 
-(setenv "GOPATH" (concat (getenv "HOME") "/code/go"))
-(setq exec-path (cons
-                 (concat (getenv "HOME") "/code/go/bin")
-                 exec-path))
-(setenv "PATH" (concat (getenv "HOME") "/code/go/bin:" (getenv "PATH")))
-
 (define-key go-mode-map (kbd "C-c f") 'go-test-current-file)
 (define-key go-mode-map (kbd "C-c t") 'go-test-current-test)
 (define-key go-mode-map (kbd "C-c p") 'go-test-current-project)
@@ -192,13 +191,6 @@
    "b, _ := json.MarshalIndent(, \"\", \"\\t\")\C-mfmt.Println(string(b))\C-p\C-[f\C-f")
 
 ;; ruby
-(setenv "PATH" (concat
-                (getenv "HOME") "/.rbenv/shims:" (getenv "HOME") "/.rbenv/bin:" (getenv "PATH")
-                ))
-(setq exec-path (cons
-                 (concat (getenv "HOME") "/.rbenv/shims")
-                 (cons (concat (getenv "HOME") "/.rbenv/bin")
-                       exec-path)))
 
 
 ;; Javascript
@@ -215,10 +207,6 @@
 
 
 ;; global
-(setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
-(setq exec-path (cons
-                 "/usr/local/bin"
-                 exec-path))
 (setq tab-width 4)
 (setq-default indent-tabs-mode nil)
 
@@ -276,4 +264,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(cursor ((t nil))))
