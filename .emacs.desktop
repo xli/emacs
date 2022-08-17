@@ -1,0 +1,979 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Mar 18 08:07:50 2021
+;; Desktop file format version 208
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24659 27846 32333 0) (desktop . "208") "ilx@ilx-mbp" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#eeeeec") (background-color . "#2e3436") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display . "ilx-mbp") (environment "_=/Users/ilx/homebrew/bin/emacsclient" "COLORTERM=truecolor" "SECURITYSESSIONID=186af" "LC_TERMINAL=iTerm2" "GOPATH=/Users/ilx/go" "LOGNAME=ilx" "LESS=-R" "ITERM_SESSION_ID=w0t1p0:3A7C8674-554A-4A90-A456-564822D550AC" "LC_TERMINAL_VERSION=3.4.4" "COLORFGBG=7;0" "HOME=/Users/ilx" "SHLVL=2" "XPC_SERVICE_NAME=0" "XPC_FLAGS=0x0" "ITERM_PROFILE=Default" "LANG=en_US.UTF-8" "EDITOR=/Users/ilx/.oh-my-zsh/plugins/emacs/emacsclient.sh" "PWD=/Users/ilx/code/client-sdk-python" "__CFBundleIdentifier=com.googlecode.iterm2" "LaunchInstanceID=8B33F6A5-0BBD-41B3-B362-A5C140002D10" "PATH=/Users/ilx/homebrew/opt/openjdk/bin:/Users/ilx/.cargo/bin:/Users/ilx/homebrew/bin:/Users/ilx/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/facebook/bin:/opt/facebook/bin/biggrep:/opt/facebook/ops/scripts/chef:/opt/homebrew/bin:/usr/local/munki:/opt/facebook/hg/bin:/Library/Apple/usr/bin:/Users/ilx/go/bin" "LSCOLORS=Gxfxcxdxbxegedabagacad" "PAGER=less" "__CF_USER_TEXT_ENCODING=0x0:0:0" "SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.IYr2SlzySr/Listeners" "COMMAND_MODE=unix2003" "USER=ilx" "ZSH=/Users/ilx/.oh-my-zsh" "TERM_SESSION_ID=w0t1p0:3A7C8674-554A-4A90-A456-564822D550AC" "TERM_PROGRAM_VERSION=3.4.4" "TMPDIR=/var/folders/_k/nl1xdm596cggftxqdxb1sh080000gn/T/" "CARGO_ENV=/Users/ilx/.cargo/env" "CPPFLAGS=-I/Users/ilx/homebrew/opt/openjdk/include" "EMACS_PLUGIN_LAUNCHER=/Users/ilx/.oh-my-zsh/plugins/emacs/emacsclient.sh" "SHELL=/bin/zsh" "TERM=xterm-256color" "TERM_PROGRAM=iTerm.app") (display-type . color) (background-mode . dark) (cursor-color . "#fce94f") (frameset--id . "EDC3-1A7E-121E-5784") (frameset--mini t . t) (height . 67) (width . 226) (modeline . t) (unsplittable) (left . 57) (top . 25) (icon-name) (visibility . t) (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 60) (min-pixel-width . 160) (min-pixel-height-ignore . 30) (min-pixel-width-ignore . 64) (min-pixel-height-safe . 15) (min-pixel-width-safe . 32)) hc (pixel-width . 1824) (pixel-height . 990) (total-width . 228) (total-height . 66) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 912) (pixel-height . 990) (total-width . 114) (total-height . 66) (normal-height . 1.0) (normal-width . 0.5) (buffer "local_account.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3266) (start . 746))) (leaf (last . t) (pixel-width . 912) (pixel-height . 990) (total-width . 114) (total-height . 66) (normal-height . 1.0) (normal-width . 0.5) (buffer "*scratch*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 206) (start . 1)))) (((minibuffer . t) (vertical-scroll-bars) (menu-bar-lines . 1) (tool-bar-lines . 0) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (display-type . mono) (background-mode . dark) (font . "tty") (height . 10) (width . 10) (modeline . t) (unsplittable) (frameset--id . "7A53-8775-D68B-4517") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 9) (total-width . 10) (total-height . 9) (normal-height . 1.0) (normal-width . 1.0) (buffer "*scratch*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 146) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("diem_hash_seed" "hash" "j" "sign" "diem_hash_prefix" "hash(" "dual" "payload_version" "get_metadata" "metadat" "get_account" "digest" "comp" "headers" "algorithm" "sha3-256"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/Users/ilx/code/client-sdk-python/docs/offchain-api-v3.html" "/Users/ilx/code/client-sdk-python/docs/mini-wallet-api-spec.html" "/Users/ilx/code/libra/json-rpc/src/methods.rs" "/Users/ilx/code/libra/state-sync/src/shared_components.rs" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/diem_account.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/app.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/compat.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/utils.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/compat.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/structures.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/models.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/auth.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/models.py" "/Users/ilx/code/client-sdk-python/tests/test_identifier.py" "/Users/ilx/code/client-sdk-python/tests/test_offchain_api.py" "/Users/ilx/code/client-sdk-python/src/diem/offchain/jws.py" "/Users/ilx/code/libra/json-rpc/types/src/proto/jsonrpc.proto" "/Users/ilx/code/client-sdk-python/tests/test_testing_cli.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/static/openapi.yaml" "/Users/ilx/code/client-sdk-python/offchain-api.yaml" "/Users/ilx/code/client-sdk-python/src/diem/testnet.py" "/Users/ilx/code/client-sdk-python/requirements.txt" "/Users/ilx/code/client-sdk-python/src/diem/identifier/__init__.py" "/Users/ilx/code/client-sdk-python/src/diem/utils.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/__init__.py" "/Users/ilx/code/reference-wallet/backend/tests/context_tests/test_config.py" "/Users/ilx/code/reference-wallet/backend/test.sh" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/__init__.py" "/Users/ilx/code/client-sdk-python/tests/test_auth_key.py" "/Users/ilx/code/client-sdk-python/tests/test_testing_cli.py" "/Users/ilx/code/client-sdk-python/stub.json" "/Users/ilx/code/client-sdk-python/account.json" "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/envs.py" "/Users/ilx/code/client-sdk-python/account.json" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/betterproto/__init__.py" "/Users/ilx/code/client-sdk-python/src/diem/jsonrpc/jsonrpc.py" "/Users/ilx/code/client-sdk-python/src/diem/jsonrpc/jsonrpc_pb2.py" "/Users/ilx/code/client-sdk-python/src/diem/jsonrpc/client.py" "/Users/ilx/code/client-sdk-python/src/diem/jsonrpc/jsonrpc.py" "/Users/ilx/code/client-sdk-python/src/diem/jsonrpc/jsonrpc_pb2.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/config.py" "/Users/ilx/code/client-sdk-python/requirements.txt" "/Users/ilx/code/client-sdk-python/Makefile" "/Users/ilx/code/client-sdk-python/requirements.txt" "/Users/ilx/code/libra/json-rpc/API-CHANGELOG.md" "/Users/ilx/code/client-sdk-python/log" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/store.py" "/Users/ilx/code/libra/json-rpc/types/src/views.rs" "/Users/ilx/code/libra/types/src/transaction/mod.rs" "/Users/ilx/code/libra/language/diem-framework/modules/DiemAccount.move" "/Users/ilx/code/libra/language/diem-framework/transaction_scripts/peer_to_peer_with_metadata.move" "/Users/ilx/code/libra/language/diem-framework/modules/DualAttestation.move" "/Users/ilx/code/client-sdk-python/src/diem/local_account.py" "/Users/ilx/code/client-sdk-python/examples/tests/test_offchain_error_cases.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/conftest.py" "/Users/ilx/code/client-sdk-python/src/diem/diem_types/__init__.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/google/protobuf/text_format.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/google/protobuf/json_format.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/google/protobuf/descriptor.py" "/Users/ilx/code/client-sdk-python/src/diem/jsonrpc/jsonrpc_pb2.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/models.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/app.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/test_payment.py" "/Users/ilx/code/libra-sdk-java/README.md" "/Users/ilx/code/libra-sdk-java/build.gradle" "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/test_miniwallet_api.py" "/Users/ilx/code/client-sdk-python/tests/test_txnmetadata.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/store.py" "/Users/ilx/code/client-sdk-python/src/diem/jsonrpc/client.py" "/Users/ilx/code/client-sdk-python/src/diem/txnmetadata.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/client.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/event_puller.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/config.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/app.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/conftest.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/event_puller.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/test_receive_payment.py" "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/diem_account.py" "/Users/ilx/code/client-sdk-python/src/diem/offchain/client.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/_pytest/_version.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/pytest/__init__.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/pytest/__main__.py" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/pytest/py.typed" "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/pytest/__main__.py" "/Users/ilx/code/reference-wallet/scripts/wait_for_server_ready.sh" "/Users/ilx/code/client-sdk-python/src/diem/testing/cli/click.py" "/Users/ilx/Downloads/logs_469/build (3.7)/7_Launch tests against it.txt" "/Users/ilx/code/reference-wallet/scripts/lrw.sh" "/Users/ilx/code/reference-wallet/README.md" "/Users/ilx/code/reference-wallet/Makefile" "/Users/ilx/code/client-sdk-python/src/diem/__VERSION__.py"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/tests/test_offchain_api.py"
+  "test_offchain_api.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1533
+  '(1484 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24658 10548 304496 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (469 478 2439 1423 2927 3318 3935 3973 3318 1987 3318 1987 2323 2259 2161 572))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/utils.py"
+  "utils.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  4680
+  '(4222 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24656 63760 145356 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (4236 501 494 523 4719 4735 335 335 335 335 335 335 335 335 335 322))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra/json-rpc/types/src/views.rs"
+  "views.rs"
+  'rust-mode
+  '(eldoc-mode override-global-mode flx-ido-mode cargo-minor-mode racer-mode company-mode global-auto-revert-mode magit-file-mode)
+  13902
+  '(1400 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24656 63596 367375 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (18109 20613 20623 1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra/json-rpc/src/methods.rs"
+  "methods.rs"
+  'rust-mode
+  '(eldoc-mode override-global-mode flx-ido-mode cargo-minor-mode racer-mode company-mode global-auto-revert-mode magit-file-mode)
+  7317
+  '(22694 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24656 9781 974140 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (9861 8453 1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra/language/diem-framework/modules/DualAttestation.move"
+  "DualAttestation.move"
+  'rust-mode
+  '(eldoc-mode override-global-mode flx-ido-mode cargo-minor-mode racer-mode company-mode global-auto-revert-mode magit-file-mode)
+  61
+  '(76 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24656 9769 934162 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (76 20115 2168 61 76))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/txnmetadata.py"
+  "txnmetadata.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  2987
+  '(3001 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24656 9698 757873 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (3188 1478 2280 2295 1237 754 732 4586 4469 1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/local_account.py"
+  "local_account.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  3266
+  '(612 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24659 27844 83855 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (612 612 612 612 612 612 612 612 612 612 612 612 612 612 1 612))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/offchain-api.yaml"
+  "offchain-api.yaml"
+  'yaml-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  281
+  '(267 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24655 60300 653499 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (13050 8631 5356 5232 5209 4946 4891 176 176 176 176 14647 1 176 8 176))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/docs/offchain-api-v3.html"
+  "offchain-api-v3.html"
+  'mhtml-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  269
+  '(822 nil)
+  nil
+  nil
+  '((buffer-display-time 24655 41112 242440 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/docs/mini-wallet-api-spec.html"
+  "mini-wallet-api-spec.html"
+  'mhtml-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  804
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 24655 40708 840886 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (207))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra/state-sync/src/shared_components.rs"
+  "shared_components.rs"
+  'rust-mode
+  '(eldoc-mode override-global-mode flx-ido-mode cargo-minor-mode racer-mode company-mode global-auto-revert-mode magit-file-mode)
+  2461
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24655 38076 36127 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/falcon.py"
+  "falcon.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  3279
+  '(247 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24655 33848 482085 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (247 247 247 247 247 247 247 247 247 247 247 247 247 247 247 247))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/offchain/jws.py"
+  "jws.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  663
+  '(677 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24653 43103 703321 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (96 875 247 265 257 252 252))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/offchain/client.py"
+  "client.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  13874
+  '(6692 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24653 43071 70549 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (6424 6434 12260 12278 12485 6442 6473 6409 3729 4147 3649))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/diem_account.py"
+  "diem_account.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1268
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24653 42973 435628 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/app.py"
+  "app.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1022
+  '(825 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24653 42964 955224 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (837 1137 83 1137 756 1137 750 756 1137 1137 1137 1137 1137 1137 1137 1137))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/models.py"
+  "models.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  10159
+  '(1485 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24653 41290 497543 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (2047 2055 5351 1959 1967 1967 12766 530 539 505 25 12772 12695 530 539 422))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/auth.py"
+  "auth.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  2269
+  '(2277 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24653 22418 941736 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (9351 8174 8181 1 2826 2743 2154))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/compat.py"
+  "compat.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1132
+  '(1068 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24653 21191 200189 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1533 1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/adapters.py"
+  "adapters.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  18610
+  '(15284 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24653 21002 283755 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (13988))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/sessions.py"
+  "sessions.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  4764
+  '(4475 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24653 19562 631113 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (4483 1 28054 28281 28289 15673 4452 4460))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/utils.py"
+  "utils.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  19458
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24653 19197 396923 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/requests/structures.py"
+  "structures.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  155
+  '(169 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24653 19021 803056 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/tests/test_identifier.py"
+  "test_identifier.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  185
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24653 16862 285166 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/examples/tests/test_offchain_error_cases.py"
+  "test_offchain_error_cases.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  22579
+  '(22615 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24652 24879 768033 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (22820 22792 22821 22821 1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/jsonrpc/jsonrpc.py"
+  "jsonrpc.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  181
+  '(218 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24652 8219 633442 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (229))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra/json-rpc/types/src/proto/jsonrpc.proto"
+  "jsonrpc.proto"
+  'protobuf-mode
+  '(abbrev-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  3256
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24652 7131 658345 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/tests/test_testing_cli.py"
+  "test_testing_cli.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  2198
+  '(2338 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24651 52505 991542 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2266 1793 1751 2294 2731 2812 2553 1927 1 2831 1507 1443 1372 1507 1507 1507))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/config.py"
+  "config.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  39
+  '(269 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24651 52505 991542 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (269 269 269 269 269 269 269 269 269 269 269 3669 269 269 269 269))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/cli/click.py"
+  "click.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  2808
+  '(107 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24651 51684 916960 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (107 107 107 107 107 107 107 107 107 107 107 107 107 107 107 107))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/static/openapi.yaml"
+  "openapi.yaml"
+  'yaml-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  14928
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24651 43562 66524 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/client.py"
+  "client.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  3985
+  '(4449 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24651 41218 967071 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2555 2555 2555 2555 2555 2555 2555 2535 2555 2555 412 2555 2555 2555 2555 2555))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/test_receive_payment.py"
+  "test_receive_payment.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  4734
+  '(322 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 61427 973699 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (322 322 322 322 322 322 322 322 322 322 322 322 322 322 322 322))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/jsonrpc/client.py"
+  "client.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  5236
+  '(10603 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 59262 164201 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (507 1 21107 17776 1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testnet.py"
+  "testnet.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  3968
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 58687 498754 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/conftest.py"
+  "conftest.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  225
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 58249 810957 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/Makefile"
+  "Makefile"
+  'makefile-bsdmake-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1541
+  '(1357 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 24650 57997 293758 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1349 1387 1387))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/requirements.txt"
+  "requirements.txt"
+  'text-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  115
+  '(105 nil)
+  nil
+  nil
+  '((buffer-display-time 24650 57978 50951 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (135))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/identifier/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 57065 497036 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/diem_types/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  22489
+  '(10420 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 56995 644420 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (10438 10253 10583 6236 7617 7617 7617 7617 7468 10915 10890 10951))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/conftest.py"
+  "conftest.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  678
+  '(396 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 55974 241968 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (396 396 396 396 396 396 396 396 396 396 396 396 396 396 396 396))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/reference-wallet/backend/tests/context_tests/test_config.py"
+  "test_config.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  423
+  '(412 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 55336 385470 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (183 159))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 55230 30407 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/envs.py"
+  "envs.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  244
+  '(234 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 55228 733931 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (435 435 435 435 435 1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/reference-wallet/backend/test.sh"
+  "test.sh"
+  'sh-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  581
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24650 55106 738030 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 51994 153315 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/tests/test_auth_key.py"
+  "test_auth_key.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  188
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 51443 594110 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/test_miniwallet_api.py"
+  "test_miniwallet_api.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  3742
+  '(8604 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 50709 639505 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1780))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/stub.json"
+  "stub.json"
+  'js-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  188
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24650 50555 82060 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/account.json"
+  "account.json"
+  'js-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  188
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24650 50548 843715 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/betterproto/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  13543
+  '(24605 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 40953 604865 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (11748 10882))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/jsonrpc/jsonrpc_pb2.py"
+  "jsonrpc_pb2.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1
+  '(70898 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 40182 897695 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1 10154 4940))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra/json-rpc/API-CHANGELOG.md"
+  "API-CHANGELOG.md"
+  'markdown-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  5395
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-display-time 24650 29376 606817 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/event_puller.py"
+  "event_puller.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  2761
+  '(88 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24650 28091 180723 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (88 88 88 88 88 88 88 88 88 88 88 88 88 88 88 88))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/store.py"
+  "store.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  861
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24649 46554 13639 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra/types/src/transaction/mod.rs"
+  "mod.rs"
+  'rust-mode
+  '(eldoc-mode override-global-mode flx-ido-mode cargo-minor-mode racer-mode company-mode global-auto-revert-mode magit-file-mode)
+  5901
+  '(2199 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24649 46352 944258 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2217 1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra/language/diem-framework/modules/DiemAccount.move"
+  "DiemAccount.move"
+  'rust-mode
+  '(eldoc-mode override-global-mode flx-ido-mode cargo-minor-mode racer-mode company-mode global-auto-revert-mode magit-file-mode)
+  13372
+  '(13389 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24649 32656 647241 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (13396 13389 12555 12573 1 33073 1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra/language/diem-framework/transaction_scripts/peer_to_peer_with_metadata.move"
+  "peer_to_peer_with_metadata.move"
+  'fundamental-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  6681
+  '(725 nil)
+  nil
+  nil
+  '((buffer-display-time 24649 32610 389676 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (743 1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra/language/diem-framework/transaction_scripts/rotate_dual_attestation_info.move"
+  "rotate_dual_attestation_info.move"
+  'fundamental-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  19
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24649 32494 669216 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra/language/diem-framework/compiled/transaction_scripts/abi/peer_to_peer_with_metadata.abi"
+  "peer_to_peer_with_metadata.abi"
+  'fundamental-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  4792
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24649 32455 548943 0) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/tests/test_txnmetadata.py"
+  "test_txnmetadata.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  724
+  '(738 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24649 16757 138083 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (738))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/google/protobuf/text_format.py"
+  "text_format.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  25755
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24649 9436 686542 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/google/protobuf/internal/python_message.py"
+  "python_message.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  3226
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24649 9336 574205 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (41542 38814 4836 53142 53159 38819 38832))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/google/protobuf/descriptor.py"
+  "descriptor.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  42534
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24649 9257 11138 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/google/protobuf/json_format.py"
+  "json_format.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  11026
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24649 9250 275502 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/miniwallet/app/models.py"
+  "models.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1164
+  '(257 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24649 7962 995171 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/testing/suites/test_payment.py"
+  "test_payment.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1449
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24649 7064 158119 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra-sdk-java/README.md"
+  "README.md"
+  'markdown-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  501
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-display-time 24649 3181 593107 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2551))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/libra-sdk-java/build.gradle"
+  "build.gradle"
+  'fundamental-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  384
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24649 1502 883337 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/tests/miniwallet/test_store.py"
+  "test_store.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1304
+  '(199 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24648 8134 598905 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/_pytest/config/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  40684
+  '(28583 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24647 51512 768723 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (28597))))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/_pytest/_version.py"
+  "_version.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24647 50535 804644 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/pytest/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  2511
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24647 50520 412367 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/pytest/__main__.py"
+  "__main__.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  117
+  '(117 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24647 50483 351775 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/venv/lib/python3.9/site-packages/pytest/py.typed"
+  "py.typed"
+  'fundamental-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24647 50479 846036 0))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/reference-wallet/scripts/wait_for_server_ready.sh"
+  "wait_for_server_ready.sh"
+  'sh-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24647 49263 41355 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/reference-wallet/Makefile"
+  "Makefile"
+  'makefile-bsdmake-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  470
+  '(487 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 24647 49044 719226 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/reference-wallet/scripts/lrw.sh"
+  "lrw.sh"
+  'sh-mode
+  '(override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  9918
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 24647 48266 877948 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/reference-wallet/README.md"
+  "README.md"
+  'markdown-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  2728
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-display-time 24647 46515 912321 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ilx/code/client-sdk-python/src/diem/__VERSION__.py"
+  "__VERSION__.py"
+  'python-mode
+  '(eldoc-mode override-global-mode flx-ido-mode global-auto-revert-mode magit-file-mode)
+  98
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24647 46499 847422 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
